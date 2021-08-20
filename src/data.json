@@ -1,0 +1,468 @@
+{
+  "groceries": [
+    {
+      "id": 1,
+      "name": "avocado",
+      "store": 0,
+      "isStaple": true,
+      "zone": -10,
+      "checked": false
+    },
+    {
+      "id": 4,
+      "name": "broccoli",
+      "store": 0,
+      "isStaple": true,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 7,
+      "name": "coffee",
+      "store": 0,
+      "zone": 2,
+      "checked": false
+    },
+    {
+      "id": 8,
+      "name": "melon",
+      "store": 0,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 9,
+      "name": "cinnamon",
+      "store": 0,
+      "zone": 6,
+      "checked": false
+    },
+    {
+      "id": 10,
+      "name": "pepcid",
+      "store": 0,
+      "zone": 11,
+      "checked": false
+    },
+    {
+      "id": 13,
+      "name": "coffee filters",
+      "store": 0,
+      "zone": 2,
+      "checked": false
+    },
+    {
+      "id": 14,
+      "name": "tea",
+      "store": 0,
+      "zone": 2,
+      "checked": false
+    },
+    {
+      "id": 16,
+      "name": "granola",
+      "store": 0,
+      "zone": 4,
+      "checked": false
+    },
+    {
+      "id": 17,
+      "name": "oats",
+      "store": 0,
+      "zone": 4,
+      "checked": false
+    },
+    {
+      "id": 18,
+      "name": "pasta",
+      "store": 0,
+      "zone": 5,
+      "checked": false
+    },
+    {
+      "id": 19,
+      "name": "claritin",
+      "store": 0,
+      "zone": 11,
+      "checked": false
+    },
+    {
+      "id": 20,
+      "name": "tofu",
+      "store": 0,
+      "isStaple": false,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 21,
+      "name": "banana",
+      "store": 0,
+      "isStaple": true,
+      "zone": -10,
+      "checked": false
+    },
+    {
+      "id": 24,
+      "name": "frozen berries",
+      "store": 0,
+      "zone": 16,
+      "checked": false
+    },
+    {
+      "id": 25,
+      "name": "Rory Milk",
+      "store": 0,
+      "isStaple": true,
+      "zone": 17,
+      "checked": false
+    },
+    {
+      "id": 26,
+      "name": "Tommy Milk",
+      "store": 0,
+      "isStaple": true,
+      "zone": 17,
+      "checked": false
+    },
+    {
+      "id": 27,
+      "name": "Frozen Ravioli",
+      "store": 0,
+      "isStaple": true,
+      "zone": 15,
+      "checked": false
+    },
+    {
+      "id": 28,
+      "name": "bread",
+      "store": 0,
+      "zone": 12,
+      "checked": false
+    },
+    {
+      "id": 29,
+      "name": "peanut butter",
+      "store": 0,
+      "zone": 12,
+      "checked": false
+    },
+    {
+      "id": 30,
+      "name": "jelly",
+      "store": 0,
+      "zone": 12,
+      "checked": false
+    },
+    {
+      "id": 31,
+      "name": "Beans",
+      "store": 0,
+      "isStaple": true,
+      "zone": 4,
+      "checked": false
+    },
+    {
+      "id": 32,
+      "name": "soy sauce",
+      "store": 0,
+      "zone": 5,
+      "checked": false
+    },
+    {
+      "id": 33,
+      "name": "olive oil",
+      "store": 0,
+      "zone": 6,
+      "checked": false
+    },
+    {
+      "id": 34,
+      "name": "canned tomatoes",
+      "store": 0,
+      "zone": 4,
+      "checked": false
+    },
+    {
+      "id": 35,
+      "name": "red sauce",
+      "store": 0,
+      "zone": 4,
+      "checked": false
+    },
+    {
+      "id": 36,
+      "name": "sausage",
+      "store": 0,
+      "zone": 5,
+      "checked": false
+    },
+    {
+      "id": 37,
+      "name": "chicken",
+      "store": 0,
+      "isStaple": true,
+      "zone": 5,
+      "checked": false
+    },
+    {
+      "id": 38,
+      "name": "Sunday Dinner",
+      "store": 0,
+      "isStaple": true,
+      "zone": 5,
+      "checked": false
+    },
+    {
+      "id": 39,
+      "name": "garlic",
+      "store": 0,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 40,
+      "name": "onion",
+      "store": 0,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 41,
+      "name": "sweet potato",
+      "store": 0,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 44,
+      "name": "beets",
+      "store": 0,
+      "isStaple": true,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 45,
+      "name": "spinach",
+      "store": 0,
+      "isStaple": true,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 46,
+      "name": "celery",
+      "store": 0,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 47,
+      "name": "carrots",
+      "store": 0,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 48,
+      "name": "ginger",
+      "store": 0,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 50,
+      "name": "raisins",
+      "store": 0,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 51,
+      "name": "ground beef/ turkey",
+      "store": 0,
+      "zone": 5,
+      "checked": false
+    },
+    {
+      "id": 52,
+      "name": "whole chicken",
+      "store": 0,
+      "zone": 5,
+      "checked": false
+    },
+    {
+      "id": 53,
+      "name": "deodorant",
+      "store": 0,
+      "zone": 11,
+      "checked": false
+    },
+    {
+      "id": 54,
+      "name": "bell pepper",
+      "store": 0,
+      "zone": -4,
+      "checked": false
+    },
+    {
+      "id": 55,
+      "name": "fish",
+      "store": 1,
+      "isStaple": true,
+      "zone": 1,
+      "checked": false
+    },
+    {
+      "id": 56,
+      "name": "saurkraut",
+      "store": 1,
+      "zone": 5,
+      "checked": false
+    },
+    {
+      "id": 57,
+      "name": "vinegar",
+      "store": 0,
+      "zone": 6,
+      "checked": false
+    },
+    {
+      "id": 58,
+      "name": "tooth paste",
+      "store": 0,
+      "zone": 11,
+      "checked": false
+    },
+    {
+      "id": 59,
+      "name": "yogurt",
+      "store": 0,
+      "zone": 15,
+      "checked": false
+    },
+    {
+      "id": 60,
+      "name": "kosher salt",
+      "store": 0,
+      "zone": 6,
+      "checked": false
+    },
+    {
+      "id": 61,
+      "name": "3 cans white beans",
+      "store": 0,
+      "zone": 4,
+      "checked": false
+    },
+    {
+      "id": 62,
+      "name": "enchilada sauce",
+      "store": 0,
+      "zone": 4,
+      "checked": false
+    },
+    {
+      "id": 63,
+      "name": "canned corn",
+      "store": 0,
+      "zone": 4,
+      "checked": false
+    },
+    {
+      "id": 64,
+      "name": "4 oz can green chilies",
+      "store": 0,
+      "zone": 5,
+      "checked": false
+    },
+    {
+      "id": 65,
+      "name": "chicken stock",
+      "store": 0,
+      "zone": 6,
+      "checked": false
+    },
+    {
+      "id": 66,
+      "name": "fresh herb bundle",
+      "store": 0,
+      "zone": -8,
+      "checked": false
+    },
+    {
+      "id": 67,
+      "name": "potatoes",
+      "store": 0,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 68,
+      "name": "pork loin",
+      "store": 0,
+      "zone": 5,
+      "checked": false
+    },
+    {
+      "id": 69,
+      "name": "yaki soba noodles",
+      "store": 0,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 70,
+      "name": "ice cream",
+      "store": 0,
+      "zone": 15,
+      "checked": false
+    },
+    {
+      "id": 71,
+      "name": "Paper Towels",
+      "store": 0,
+      "zone": 12,
+      "checked": false
+    }
+  ],
+  "stores": [
+    {
+      "id": 0,
+      "name": "Stop & Shop"
+    },
+    {
+      "id": 1,
+      "name": "Whole Foods"
+    }
+  ],
+  "recipes": [
+    {
+      "id": 0,
+      "name": "White Bean Chicken Chilli",
+      "items": [
+        54,
+        39,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "checked": false
+    },
+    {
+      "id": 1,
+      "name": "Pork Roast",
+      "items": [
+        68,
+        66,
+        67,
+        46,
+        47
+      ],
+      "checked": false
+    }
+  ]
+}
