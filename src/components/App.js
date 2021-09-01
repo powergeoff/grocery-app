@@ -3,10 +3,10 @@
 import React, { Suspense, lazy } from 'react';
 //import useStateWithCallback from '../useStateWithCallBack';
 import 'fontsource-roboto';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+//import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 //hash router for github pages
 //https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
-//import {HashRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import RecipesPage from "./recipes/RecipesPage";
 import HomePage from './home/HomePage';
 import Header from './shared/Header';
