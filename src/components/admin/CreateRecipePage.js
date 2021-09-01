@@ -1,10 +1,10 @@
 import { makeStyles } from '@material-ui/core/styles';
 import { TextField, Grid, Paper, Button, FormControl } from '@material-ui/core';
-import AllItemsPage from '../all-items/AllItemsPage';
+//import AllItemsPage from '../all-items/AllItemsPage';
 
-
-import allData from '../../data.json';
-const GROCERIES = allData["groceries"];
+//*************THIS PAGE NEEDS A TON OF HELP!! */
+//import allData from '../../data.json';
+//const GROCERIES = allData["groceries"];
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -32,9 +32,9 @@ function CreateRecipePage(props) {
     const item = {};
     const classes = useStyles();
 
-    function handleItemChange(groceryId){
-        console.dir(groceryId);
-    }
+    //function handleItemChange(groceryId){
+        //console.dir(groceryId);
+    //}
     return (
         <div className={classes.root}>
             <Grid container spacing={3}>
@@ -55,7 +55,7 @@ function CreateRecipePage(props) {
 
                     <Grid item xs={12}>
                         <Paper className={classes.groceryList} variant="outlined">
-                            <AllItemsPage  masterList={GROCERIES} handleChangeMaster={handleItemChange}/>
+                            {/* <AllItemsPage  masterList={GROCERIES} handleChangeMaster={handleItemChange}/> */}
                         </Paper>
                     </Grid>
 

@@ -388,7 +388,7 @@
       "id": 66,
       "name": "fresh herb bundle",
       "store": 0,
-      "zone": -8,
+      "zone": -7,
       "checked": false
     },
     {
@@ -424,6 +424,20 @@
       "name": "Paper Towels",
       "store": 0,
       "zone": 12,
+      "checked": false
+    },
+    {
+      "id": 72,
+      "name": "apples",
+      "store": 0,
+      "zone": -9,
+      "checked": false
+    },
+    {
+      "id": 73,
+      "name": "hummus",
+      "store": 0,
+      "zone": -10,
       "checked": false
     }
   ],

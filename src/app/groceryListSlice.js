@@ -1,9 +1,11 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { loadStorage } from './localStorage';
 
+const stateFromLocalStorage = loadStorage(0);
 
 export const groceryListSlice = createSlice({
     name: 'groceryList',
-    initialState: [],
+    initialState: stateFromLocalStorage !== undefined ? stateFromLocalStorage : [],
     // The `reducers` field lets us define reducers and generate associated actions
     reducers: {
         toggle: (state, action) => {
@@ -21,11 +23,14 @@ export const groceryListSlice = createSlice({
         remove: (state, action) => {
             return state.filter(id => id !== action.payload);
         },
+        removeAll: (state, action) => {
+            return action.payload;
+        }
         //addRecipe: (state, )
     }
 });
 
-export const { add, remove, toggle } = groceryListSlice.actions;
+export const { add, remove, toggle, removeAll } = groceryListSlice.actions;
 
 // The function below is called a selector and allows us to select a value from
 // the state. Selectors can also be defined inline where they're used instead of

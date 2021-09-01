@@ -4,10 +4,12 @@ import { Grid } from '@material-ui/core';
 import { useSelector } from 'react-redux';
 import HomeListItem from './HomeListItem';
 import {getGroceryByID} from '../../app/appDataScripts';
+import Footer from '../shared/Footer';
 
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
+      marginBottom: 60
     },
     formControl: {
         marginLeft: theme.spacing(5),
@@ -29,15 +31,16 @@ function HomePage(){
 
     return (
         <div className={classes.root}>
-        <Grid container spacing={3}>
-        <Grid item xs={12} component="nav" aria-label="main mailbox folders">
-          {
-            groceryList.map((item) => 
-            <HomeListItem grocery={item} key={item.id}/>
-            )
-          }
+          <Grid container spacing={3}>
+          <Grid item xs={12} component="nav" aria-label="main mailbox folders">
+            {
+              groceryList.map((item) => 
+              <HomeListItem grocery={item} key={item.id}/>
+              )
+            }
+            </Grid>
           </Grid>
-        </Grid>
+          <Footer />
         </div>
     );
 }
