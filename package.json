@@ -33,7 +33,7 @@
     "workbox-streams": "^5.1.4"
   },
   "scripts": {
-    "dev": "(json-server --watch src/data.json --port 3001) & npm run start",
+    "admin": "(json-server --watch src/data.json --port 3001) & npm run start",
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build", 

@@ -111,15 +111,7 @@
     },
     {
       "id": 25,
-      "name": "Rory Milk",
-      "store": 0,
-      "isStaple": true,
-      "zone": 17,
-      "checked": false
-    },
-    {
-      "id": 26,
-      "name": "Tommy Milk",
+      "name": "Milk",
       "store": 0,
       "isStaple": true,
       "zone": 17,
@@ -473,6 +465,20 @@
       "name": "chilli powder",
       "store": 0,
       "zone": 6,
+      "checked": false
+    },
+    {
+      "id": 79,
+      "name": "american cheese",
+      "store": 0,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 80,
+      "name": "sammich meat",
+      "store": 0,
+      "zone": 0,
       "checked": false
     }
   ],
