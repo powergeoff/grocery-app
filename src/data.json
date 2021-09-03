@@ -439,6 +439,41 @@
       "store": 0,
       "zone": -10,
       "checked": false
+    },
+    {
+      "id": 74,
+      "name": "Flax",
+      "store": 0,
+      "zone": -10,
+      "checked": false
+    },
+    {
+      "id": 75,
+      "name": "cabbage",
+      "store": 0,
+      "zone": 0,
+      "checked": false
+    },
+    {
+      "id": 76,
+      "name": "cacao",
+      "store": 0,
+      "zone": 1,
+      "checked": false
+    },
+    {
+      "id": 77,
+      "name": "paprika",
+      "store": 0,
+      "zone": 6,
+      "checked": false
+    },
+    {
+      "id": 78,
+      "name": "chilli powder",
+      "store": 0,
+      "zone": 6,
+      "checked": false
     }
   ],
   "stores": [
