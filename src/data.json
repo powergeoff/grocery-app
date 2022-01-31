@@ -524,6 +524,13 @@
       "isStaple": true,
       "zone": 17,
       "checked": false
+    },
+    {
+      "id": 88,
+      "name": "lentils",
+      "store": 0,
+      "zone": 4,
+      "checked": false
     }
   ],
   "stores": [
