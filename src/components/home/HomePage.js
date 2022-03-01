@@ -28,11 +28,16 @@ function HomePage(){
     groceryList.sort(function (a, b) {
         return a.zone - b.zone;
     });
-
+    const oneTimeList = useSelector((state) => state.oneTimeList);
     return (
         <div className={classes.root}>
           <Grid container spacing={3}>
           <Grid item xs={12} component="nav" aria-label="main mailbox folders">
+            {
+              oneTimeList.map((otItem) =>
+              <HomeListItem grocery={otItem} key={otItem}/>
+              )
+            }
             {
               groceryList.map((item) => 
               <HomeListItem grocery={item} key={item.id}/>

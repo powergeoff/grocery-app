@@ -11,7 +11,7 @@ function HomeListItem(props) {
 
     return (
     <ListItem style={{textDecoration : isStrikeThrough ? 'line-through' : 'none'}} onClick={handleClick} button>
-        <ListItemText primary={props.grocery.name} />
+        <ListItemText primary={props.grocery.name !== undefined ? props.grocery.name : props.grocery} />
     </ListItem>
     );
 }

@@ -7,6 +7,7 @@ import ClearIcon from '@material-ui/icons/Clear';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectGroceryList, removeAll } from '../../app/groceryListSlice';
 import { selectRecipeList, removeAllRecipes } from '../../app/recipeListSlice';
+import { selectOneTimeList, removeAllItems } from '../../app/oneTimeListSlice';
 import { saveStorage, clearStorage } from '../../app/localStorage'; 
 
 const useStyles = makeStyles({
@@ -26,15 +27,18 @@ export default function Footer() {
   const dispatch = useDispatch();
   const groceryState = useSelector(selectGroceryList);
   const recipeState = useSelector(selectRecipeList);
+  const oneTimeState = useSelector(selectOneTimeList);
   
   const handleSaveClick = () => {
     saveStorage(groceryState, 0);
-    saveStorage(recipeState, 1)
+    saveStorage(recipeState, 1);
+    saveStorage(oneTimeState,2)
   }
 
   const handleClearAllClick = () => {
     dispatch(removeAll([]));
     dispatch(removeAllRecipes([]));
+    dispatch(removeAllItems([]));
     clearStorage();
   }
   return (
