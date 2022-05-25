@@ -1,0 +1,1 @@
+{"version":3,"sources":["routers/browserRouter.js"],"names":["CustomRouter"],"mappings":"mJAMeA,UAFM,kBAAO,cAAC,IAAD","file":"static/js/7.b55a4ac4.chunk.js","sourcesContent":["import React from 'react';\r\n\r\nimport {BrowserRouter as Router} from 'react-router-dom';\r\n\r\nconst CustomRouter = () => (<Router></Router>);\r\n\r\nexport default CustomRouter;"],"sourceRoot":""}

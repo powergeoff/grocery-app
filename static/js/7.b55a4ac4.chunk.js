@@ -1,0 +1,2 @@
+(this["webpackJsonpgrocery-app"]=this["webpackJsonpgrocery-app"]||[]).push([[7],{186:function(p,r,t){"use strict";t.r(r);var c=t(2),e=(t(0),t(23));r.default=function(){return Object(c.jsx)(e.a,{})}}}]);
+//# sourceMappingURL=7.b55a4ac4.chunk.js.map
