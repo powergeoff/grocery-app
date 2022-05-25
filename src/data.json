@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "avocado",
-      "store": 1,
+      "store": 0,
       "isStaple": true,
       "zone": -10,
       "checked": false
@@ -47,13 +47,6 @@
     {
       "id": 13,
       "name": "coffee filters",
-      "store": 0,
-      "zone": 2,
-      "checked": false
-    },
-    {
-      "id": 14,
-      "name": "tea",
       "store": 0,
       "zone": 2,
       "checked": false
