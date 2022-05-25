@@ -10,8 +10,8 @@ import AllItemsPage from "./all-items/AllItemsPage";
 //hash router for github pages
 //https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
 //https://github.com/gitname/react-gh-pages
-import {HashRouter as Router, Switch, Route} from 'react-router-dom';
-//import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+//import {HashRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 //lazy load admin stuff

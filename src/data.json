@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "avocado",
-      "store": 0,
+      "store": 1,
       "isStaple": true,
       "zone": -10,
       "checked": false
@@ -500,13 +500,6 @@
       "name": "walnuts",
       "store": 0,
       "zone": 0,
-      "checked": false
-    },
-    {
-      "id": 85,
-      "name": "grapefruit",
-      "store": 0,
-      "zone": -3,
       "checked": false
     },
     {

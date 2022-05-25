@@ -35,7 +35,6 @@ const OneTimeItem = (props) => {
     }
 
     const handleClick = () => {
-        //console.log(oneTimeItem)
         dispatch(addItem(oneTimeItem))
         setOneTimeItem('');
         props.handleClick();

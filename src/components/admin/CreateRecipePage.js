@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { TextField, Grid, Paper, Button, FormControl } from '@material-ui/core';
 //import AllItemsPage from '../all-items/AllItemsPage';
 
-//*************THIS PAGE NEEDS A TON OF HELP!! */
+//*************THIS PAGE NEEDS HELP!! */
 //import allData from '../../data.json';
 //const GROCERIES = allData["groceries"];
 
@@ -38,7 +38,7 @@ function CreateRecipePage(props) {
     return (
         <div className={classes.root}>
             <Grid container spacing={3}>
-                <Grid item xs={12}><h2 className={classes.formControl}>{id !== null ? "Edit " : "New "}Recipe</h2>
+                <Grid item xs={12}><h2 className={classes.formControl}>{id !== null ? "Edit " : "New "}Recipe - Work In Progress</h2>
                 </Grid>
 
                 <Grid item xs={12} sm={6}>

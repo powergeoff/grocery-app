@@ -27,7 +27,7 @@ const useStyles = makeStyles({
     }
   });
 
-function AdminTablePage(){
+function AdminTablePage() {
     const classes = useStyles();
     const [items, setItems] = useState(null);
 
