@@ -24,13 +24,6 @@
       "checked": false
     },
     {
-      "id": 8,
-      "name": "melon",
-      "store": 0,
-      "zone": 0,
-      "checked": false
-    },
-    {
       "id": 9,
       "name": "cinnamon",
       "store": 0,
@@ -92,7 +85,7 @@
       "name": "banana",
       "store": 0,
       "isStaple": true,
-      "zone": -10,
+      "zone": -9,
       "checked": false
     },
     {
@@ -213,23 +206,8 @@
       "checked": false
     },
     {
-      "id": 41,
-      "name": "sweet potato",
-      "store": 0,
-      "zone": 0,
-      "checked": false
-    },
-    {
-      "id": 44,
-      "name": "beets",
-      "store": 0,
-      "isStaple": true,
-      "zone": 0,
-      "checked": false
-    },
-    {
       "id": 45,
-      "name": "spinach",
+      "name": "spinach*",
       "store": 0,
       "isStaple": true,
       "zone": 0,
@@ -237,7 +215,7 @@
     },
     {
       "id": 46,
-      "name": "celery",
+      "name": "celery*",
       "store": 0,
       "zone": 0,
       "checked": false
@@ -252,13 +230,6 @@
     {
       "id": 48,
       "name": "ginger",
-      "store": 0,
-      "zone": 0,
-      "checked": false
-    },
-    {
-      "id": 50,
-      "name": "raisins",
       "store": 0,
       "zone": 0,
       "checked": false
@@ -286,17 +257,9 @@
     },
     {
       "id": 54,
-      "name": "bell pepper",
+      "name": "bell pepper*",
       "store": 0,
       "zone": -4,
-      "checked": false
-    },
-    {
-      "id": 55,
-      "name": "fish",
-      "store": 1,
-      "isStaple": true,
-      "zone": 1,
       "checked": false
     },
     {
@@ -391,13 +354,6 @@
       "checked": false
     },
     {
-      "id": 69,
-      "name": "yaki soba noodles",
-      "store": 0,
-      "zone": 0,
-      "checked": false
-    },
-    {
       "id": 70,
       "name": "ice cream",
       "store": 0,
@@ -412,31 +368,10 @@
       "checked": false
     },
     {
-      "id": 73,
-      "name": "hummus",
-      "store": 0,
-      "zone": -10,
-      "checked": false
-    },
-    {
-      "id": 74,
-      "name": "Flax",
-      "store": 0,
-      "zone": -10,
-      "checked": false
-    },
-    {
       "id": 75,
       "name": "cabbage",
       "store": 0,
       "zone": 0,
-      "checked": false
-    },
-    {
-      "id": 76,
-      "name": "cacao",
-      "store": 0,
-      "zone": 1,
       "checked": false
     },
     {
@@ -454,29 +389,8 @@
       "checked": false
     },
     {
-      "id": 79,
-      "name": "american cheese",
-      "store": 0,
-      "zone": 0,
-      "checked": false
-    },
-    {
-      "id": 80,
-      "name": "sammich meat",
-      "store": 0,
-      "zone": 0,
-      "checked": false
-    },
-    {
-      "id": 81,
-      "name": "pita bread",
-      "store": 0,
-      "zone": 0,
-      "checked": false
-    },
-    {
       "id": 82,
-      "name": "berries",
+      "name": "berries*",
       "store": 0,
       "zone": -10,
       "checked": false
@@ -500,7 +414,7 @@
       "name": "oranges",
       "store": 0,
       "isStaple": true,
-      "zone": -9,
+      "zone": -8,
       "checked": false
     },
     {
@@ -516,6 +430,34 @@
       "name": "lentils",
       "store": 0,
       "zone": 4,
+      "checked": false
+    },
+    {
+      "id": 90,
+      "name": "apples*",
+      "store": 0,
+      "zone": -8,
+      "checked": false
+    },
+    {
+      "id": 91,
+      "name": "Green Beans*",
+      "store": 0,
+      "zone": -10,
+      "checked": false
+    },
+    {
+      "id": 92,
+      "name": "cereal",
+      "store": 0,
+      "zone": 2,
+      "checked": false
+    },
+    {
+      "id": 93,
+      "name": "grapes*",
+      "store": 0,
+      "zone": -10,
       "checked": false
     }
   ],
