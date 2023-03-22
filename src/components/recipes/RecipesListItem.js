@@ -9,7 +9,7 @@ function RecipesListItem({ recipe }) {
     const dispatch = useDispatch();
     const state = useSelector(selectRecipeList);
     const groceriesState = useSelector(selectGroceryList);
-    console.dir(groceriesState);
+    //console.dir(groceriesState);
     const isChecked = state.find(id => id === ID) !== undefined ? true : false;
     const handleChange = (event) => {
         if (event.target.checked){

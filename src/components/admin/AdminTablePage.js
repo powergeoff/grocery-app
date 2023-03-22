@@ -20,10 +20,13 @@ const useStyles = makeStyles({
       //width: '100%',
     },
     container: {
-      maxHeight: 610,
     },
     button: {
         padding: 0
+    },
+    th: {
+      //position: 'fixed',
+      //top: 0,
     }
   });
 
@@ -61,16 +64,16 @@ function AdminTablePage() {
     return (
     <Paper className={classes.root}>
       <TableContainer className={classes.container}>
-        <Table stickyHeader aria-label="sticky table">
+        <Table >
             <TableHead>
               <TableRow>
-                <TableCell>Grocery Items</TableCell>
-                <TableCell align="right">ID</TableCell>
-                <TableCell align="right">Zone</TableCell>
-                <TableCell align="right">Store</TableCell>
-                <TableCell align="right">Staple</TableCell>
-                <TableCell align="right">Edit</TableCell>
-                <TableCell align="right">Delete</TableCell>
+                <TableCell className={classes.th}>Grocery Items</TableCell>
+                <TableCell className={classes.th} align="right">ID</TableCell>
+                <TableCell className={classes.th} align="right">Zone</TableCell>
+                <TableCell className={classes.th} align="right">Store</TableCell>
+                <TableCell className={classes.th} align="right">Staple</TableCell>
+                <TableCell className={classes.th} align="right">Edit</TableCell>
+                <TableCell className={classes.th} align="right">Delete</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
