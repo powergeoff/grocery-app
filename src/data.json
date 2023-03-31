@@ -89,13 +89,6 @@
       "checked": false
     },
     {
-      "id": 24,
-      "name": "frozen berries",
-      "store": 0,
-      "zone": 16,
-      "checked": false
-    },
-    {
       "id": 25,
       "name": "Milk",
       "store": 0,
@@ -354,13 +347,6 @@
       "checked": false
     },
     {
-      "id": 70,
-      "name": "ice cream",
-      "store": 0,
-      "zone": 15,
-      "checked": false
-    },
-    {
       "id": 71,
       "name": "Paper Towels",
       "store": 0,
@@ -458,6 +444,13 @@
       "name": "grapes*",
       "store": 0,
       "zone": -10,
+      "checked": false
+    },
+    {
+      "id": 94,
+      "name": "Tommy Soup",
+      "store": 0,
+      "zone": 7,
       "checked": false
     }
   ],
