@@ -9,6 +9,7 @@ import HomeIcon from '@material-ui/icons/Home';
 import LocalGroceryStoreIcon from '@material-ui/icons/LocalGroceryStore';
 import RestaurantIcon from '@material-ui/icons/Restaurant';
 import FlashOnIcon from '@material-ui/icons/FlashOn';
+import ScoreIcon from '@material-ui/icons/Score';
 
 
 import AdminLinks from './AdminLinks';
@@ -50,6 +51,12 @@ export default function Header() {
               <IconButton aria-label="all-items" onClick={handleClick}>
                 <FlashOnIcon style={{ fontSize: 40 }} />
               </IconButton>
+
+              <Link style={{textDecoration : 'none', margin: '5px'}} to="/score-keeper">
+              <IconButton aria-label="all-items">
+                <ScoreIcon style={{ fontSize: 40 }} />
+              </IconButton>
+            </Link>
 
             <AdminLinks />
           </Toolbar>
