@@ -8,8 +8,8 @@ const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
       marginBottom: 60,
-      marginLeft: 50
-      //marginTop:50
+      marginLeft: 50,
+      marginTop:50
     }
   }));
 
